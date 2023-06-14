@@ -4,7 +4,7 @@ from src.utils import import_json_file, sorted_data, what_is_transfer, formatted
 
 
 def test_import_json_file(dict_fixture):
-    assert import_json_file("/Users/glebskotnikov/PycharmProjects/course_work_03/json/test.json") == dict_fixture
+    assert import_json_file("json/test.json") == dict_fixture
 
 
 def test_sorted_data(dict_fixture, result_for_dict_fixture):
