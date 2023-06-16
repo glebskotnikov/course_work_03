@@ -1,5 +1,3 @@
-import json
-
 from src.utils import import_json_file, sorted_data, what_is_transfer, formatted_card, formatted_invoice, instance_json
 
 
